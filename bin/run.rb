@@ -3,4 +3,4 @@ Sinatra
 Octokit
 Pry
 AwesomePrint
-equire_relative '../config/environmen'
+equire_relative '../config/environment'
