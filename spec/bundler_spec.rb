@@ -6,9 +6,9 @@ describe "Bundler" do
     Bundler.with_clean_env do
       @bundle_output = `bundle`
     end
-  end
+  
 
-  escribe "Gemfile" do
+  describe "Gemfile" do
     before :all do
       @gemfile_text = File.read('Gemfile')
     end
